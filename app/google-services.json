@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "227321347047",
+    "firebase_url": "https://fitz-442e1.firebaseio.com",
+    "project_id": "fitz-442e1",
+    "storage_bucket": "fitz-442e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227321347047:android:1c7760b6ecbcd045801b42",
+        "android_client_info": {
+          "package_name": "com.example.fitz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227321347047-a1806iq2jhe86v55anaj841cm6a959oq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdjCn_HeYYwgNMEQnRFSwzTMhu-RtCQRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227321347047-a1806iq2jhe86v55anaj841cm6a959oq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
