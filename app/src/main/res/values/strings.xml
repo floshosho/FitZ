@@ -7,4 +7,8 @@
     <string name="create_password">Password</string>
     <string name="create_confirm_password">Confirm Password</string>
     <string name="register">Register</string>
+    <string name="my_account">Account</string>
+    <string name="exercises">Exercises</string>
+    <string name="routine">Routine</string>
+    <string name="map">Map</string>
 </resources>
