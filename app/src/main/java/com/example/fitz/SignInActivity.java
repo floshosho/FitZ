@@ -3,7 +3,6 @@ package com.example.fitz;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -23,7 +22,6 @@ public class SignInActivity extends AppCompatActivity {
 
     private final static String TAG = SignInActivity.class.getSimpleName();
     private FirebaseAuth mAuth;
-    private final boolean debug = false;
 
     // TODO Start this when we add the main menu
     // When main activity starts, check if user is currently signed in
@@ -41,17 +39,17 @@ public class SignInActivity extends AppCompatActivity {
         setContentView(R.layout.activity_sign_in);
         mAuth = FirebaseAuth.getInstance();
 
-        Button login = (Button) findViewById(R.id.button_login);
+        Button login = findViewById(R.id.button_login);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                EditText email = (EditText) findViewById(R.id.editText_email); // get email from EditText obj
-                EditText password = (EditText) findViewById(R.id.editText_password); // get password from EditText obj
+                EditText email = findViewById(R.id.editText_email); // get email from EditText obj
+                EditText password = findViewById(R.id.editText_password); // get password from EditText obj
                 signInUser(email.getText().toString(), password.getText().toString()); // Attempt to sign in the user
             }
         });
 
-        Button createAccount = (Button) findViewById(R.id.button_create_account);
+        Button createAccount = findViewById(R.id.button_create_account);
         createAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -39,13 +39,13 @@ public class CreateAccountActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mAuth = FirebaseAuth.getInstance();
-        Button register = (Button) findViewById(R.id.button_create_register);
+        Button register = findViewById(R.id.button_create_register);
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                EditText email = (EditText) findViewById(R.id.editText_email2);
-                EditText password = (EditText) findViewById(R.id.editText_password2);
-                EditText confPassword = (EditText) findViewById(R.id.editText_confirm_password);
+                EditText email = findViewById(R.id.editText_email2);
+                EditText password = findViewById(R.id.editText_password2);
+                EditText confPassword = findViewById(R.id.editText_confirm_password);
                 createAccount(email.getText().toString(), password.getText().toString(),
                         confPassword.getText().toString());
             }
@@ -74,7 +74,7 @@ public class CreateAccountActivity extends AppCompatActivity {
                             if (task.isSuccessful()) {
                                 // Sign in success, update UI with the signed-in user's information
                                 Log.d(TAG, "createUserWithEmail:success");
-                                FirebaseUser user = mAuth.getCurrentUser();
+                                //FirebaseUser user = mAuth.getCurrentUser();
                                 Toast.makeText(getApplicationContext(), "Welcome to FitZ!", Toast.LENGTH_SHORT).show();
                             } else {
                                 // If sign in fails, display a message to the user.
