@@ -3,4 +3,8 @@
     <string name="titleString">FitZ</string>
     <string name="fitz_logo_picture">fitz logo picture</string>
     <string name="username">Username</string>
+    <string name="create_email">Email</string>
+    <string name="create_password">Password</string>
+    <string name="create_confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
 </resources>
