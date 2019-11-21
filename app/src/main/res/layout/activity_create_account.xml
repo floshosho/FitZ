@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccountActivity">
+
+    <Button
+        android:id="@+id/button_create_register"
+        android:layout_width="112dp"
+        android:layout_height="56dp"
+        android:background="#01A5B9"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_confirm_password"
+        app:layout_constraintVertical_bias="0.374" />
+
+    <EditText
+        android:id="@+id/editText_confirm_password"
+        android:layout_width="265dp"
+        android:layout_height="50dp"
+        android:autofillHints="password"
+        android:backgroundTint="#01A5B9"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColorLink="#01A5B9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_password2"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <EditText
+        android:id="@+id/editText_password2"
+        android:layout_width="265dp"
+        android:layout_height="50dp"
+        android:autofillHints="password"
+        android:backgroundTint="#01A5B9"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorLink="#01A5B9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_email2"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <EditText
+        android:id="@+id/editText_email2"
+        android:layout_width="265dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="284dp"
+        android:autofillHints="username"
+        android:backgroundTint="#01A5B9"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorLink="#01A5B9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_fitzlogo2" />
+
+    <ImageView
+        android:id="@+id/imageView_fitzlogo2"
+        android:layout_width="228dp"
+        android:layout_height="175dp"
+        android:contentDescription="@string/fitz_logo_picture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151"
+        app:srcCompat="@drawable/fitzlogo_transparent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
