@@ -11,4 +11,16 @@
     <string name="exercises">Exercises</string>
     <string name="routine">Routine</string>
     <string name="map">Map</string>
+
+    <string name="fragment_container"> Fragment Container</string>
+
+    <string name="profile_pic">Profile Pic</string>
+    <string name="username_profile"> Profile Username </string>
+
+    <string name="strength_workout"> Strength</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
